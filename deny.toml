@@ -30,7 +30,6 @@ allow = [
   "BSD-3-Clause",
   # "CC0-1.0",
   "ISC",
-  # "LicenseRef-ring",
   "MIT",
   "MPL-2.0",
   "Unicode-3.0",
@@ -39,13 +38,6 @@ allow = [
   "CDLA-Permissive-2.0",
 ]
 confidence-threshold = 0.9
-
-[[licenses.clarify]]
-name = "ring"
-expression = "LicenseRef-ring"
-license-files = [
-  { path = "LICENSE", hash = 3171872035 }
-]
 
 [sources]
 unknown-registry = "deny"
